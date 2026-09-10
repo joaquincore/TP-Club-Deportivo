@@ -13,12 +13,12 @@ public class Equipo {
         this.nombre = nombre;
         this.deporte = deporte;
         this.entrenador = entrenador;
-        this.capacidadMaxima=capacidadMaxima;
-        this.jugadores = new Jugador[capacidadMaxima];
+        this.capacidadMaxima=maxJugadores;
+        this.jugadores = new Jugador[maxJugadores];
         this.cantidadActual = 0;
     }
 
-    public boolean agregarJugador(Object jugador) {
+    public boolean agregarJugador(Jugador jugador) {
         if (cantidadActual < capacidadMaxima) {
             jugadores[cantidadActual] = jugador;
             cantidadActual++;
@@ -45,13 +45,13 @@ public class Equipo {
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
 
-    public String getDeporte() { return deporte; }
-    public void setDeporte(String deporte) { this.deporte = deporte; }
+    public Deporte getDeporte() { return deporte; }
+    public void setDeporte(Deporte deporte) { this.deporte = deporte; }
 
     public Entrenador getEntrenador() { return entrenador; }
     public void setEntrenador(Entrenador entrenador) { this.entrenador = entrenador; }
 
-    public Object[] getJugadores() { return jugadores; }
+    public Jugador[] getJugadores() { return jugadores; }
 
     @Override
     public String toString() {
