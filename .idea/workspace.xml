@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecf62c47-c479-4f28-8238-e95ae0bb1f63" name="Changes" comment="clase deporte agregue ancho y largo y cree la categoria" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "joaquincore"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/joaquincore/TP-Club-Deportivo.git",
+    "accountId": "49f3d41f-28f9-4910-b551-1f51ced4c0c8"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.33301906754E-312" />
+      <entry key="S5" value="5.756944056911325E-125" />
+      <entry key="S10" value="2.763139877413595E-62" />
+      <entry key="S30" value="1.9303363829624996E-20" />
+      <entry key="S60" value="5.700254106790272E-10" />
+      <entry key="M2" value="9.845418979958869E-5" />
+      <entry key="M5" value="0.13928612295361756" />
+      <entry key="M10" value="1.6210422044047657" />
+      <entry key="M15" value="3.88919275422835" />
+      <entry key="M30" value="11.285819478527515" />
+      <entry key="H1" value="22.947006878005947" />
+      <entry key="H2" value="34.98089963614488" />
+      <entry key="H4" value="43.98799458431744" />
+      <entry key="D1" value="53.745560592162015" />
+      <entry key="W1" value="55.67108278748196" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000000000544" />
+      <entry key="M2" value="1.000000687479097" />
+      <entry key="M5" value="1.0127659866563938" />
+      <entry key="M10" value="1.3542849371505787" />
+      <entry key="M15" value="2.1927631962614287" />
+      <entry key="M30" value="6.1458996247067565" />
+      <entry key="H1" value="13.503433843722343" />
+      <entry key="H2" value="21.34903774001216" />
+      <entry key="H4" value="27.221911257906847" />
+      <entry key="D1" value="33.545969454767594" />
+      <entry key="W1" value="34.78803701813239" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1308071058197358E-9" />
+      <entry key="MS500" value="0.016243428674613727" />
+      <entry key="S2" value="0.357000994921266" />
+      <entry key="S5" value="0.6623198490087777" />
+      <entry key="S10" value="0.8138303564065288" />
+      <entry key="S30" value="0.9336368007374054" />
+      <entry key="S60" value="0.9662488301860881" />
+      <entry key="M2" value="0.9830785731137532" />
+      <entry key="M5" value="1.14509097694023" />
+      <entry key="M10" value="2.9708203207150814" />
+      <entry key="M15" value="6.077435687866657" />
+      <entry key="M30" value="17.425841090596666" />
+      <entry key="H1" value="36.444022436687625" />
+      <entry key="H2" value="56.324841022912324" />
+      <entry key="H4" value="71.20664584727054" />
+      <entry key="D1" value="87.29085840299857" />
+      <entry key="W1" value="90.45902024868627" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3J6yLVGRlEBtGB3SaZwLExR6OKR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo/src/Main.java",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecf62c47-c479-4f28-8238-e95ae0bb1f63" name="Changes" comment="" />
+      <created>1788995758829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788995758829</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hola" />
+    <MESSAGE value="Prueba" />
+    <MESSAGE value="clase deporte" />
+    <MESSAGE value="clase deporte agregue ancho y largo y cree la categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase deporte agregue ancho y largo y cree la categoria" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
