@@ -20,11 +20,11 @@ public class Main {
 
         equipoBasquet.agregarJugador(j3);
 
-        System.out.println("");
+        System.out.println("\n");
         equipoFutbol.mostrarPlantilla();
-        System.out.println("");
+        System.out.println("\n");
         equipoBasquet.mostrarPlantilla();
-        System.out.println("");
+        System.out.println("\n");
 
         j1.presentarse();
         dtFutbol.planificarEntrenamiento();

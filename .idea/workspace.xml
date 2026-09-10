@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf62c47-c479-4f28-8238-e95ae0bb1f63" name="Changes" comment="clase jugador">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ecf62c47-c479-4f28-8238-e95ae0bb1f63" name="Changes" comment="main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -30,119 +29,119 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "joaquincore"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;joaquincore&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/joaquincore/TP-Club-Deportivo.git",
-    "accountId": "49f3d41f-28f9-4910-b551-1f51ced4c0c8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joaquincore/TP-Club-Deportivo.git&quot;,
+    &quot;accountId&quot;: &quot;49f3d41f-28f9-4910-b551-1f51ced4c0c8&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000008809" />
-      <entry key="MS500" value="1.0060329422268548" />
-      <entry key="S2" value="1.7285806186183432" />
-      <entry key="S5" value="3.011045483335153" />
-      <entry key="S10" value="3.8396394153703812" />
-      <entry key="S30" value="4.850430081613718" />
-      <entry key="S60" value="5.528478982536154" />
-      <entry key="M2" value="6.122913213596382" />
-      <entry key="M5" value="7.439702614871857" />
-      <entry key="M10" value="11.292390603258893" />
-      <entry key="M15" value="15.472412683561673" />
-      <entry key="M30" value="25.9084351970533" />
-      <entry key="H1" value="41.28405783422349" />
-      <entry key="H2" value="60.397189225614575" />
-      <entry key="H4" value="77.67971077411514" />
-      <entry key="D1" value="99.49432104028915" />
-      <entry key="W1" value="104.18579708719945" />
+      <entry key="MS100" value="1.582366793234741" />
+      <entry key="MS500" value="1.9029246769509585" />
+      <entry key="S2" value="2.682478291701852" />
+      <entry key="S5" value="3.978662156951007" />
+      <entry key="S10" value="4.818936237330141" />
+      <entry key="S30" value="5.841696592616247" />
+      <entry key="S60" value="6.52349956182412" />
+      <entry key="M2" value="7.120155182932388" />
+      <entry key="M5" value="8.438361965368408" />
+      <entry key="M10" value="12.291373101570583" />
+      <entry key="M15" value="16.471483241012606" />
+      <entry key="M30" value="26.90765701319186" />
+      <entry key="H1" value="42.28343782709958" />
+      <entry key="H2" value="61.39673569911859" />
+      <entry key="H4" value="78.67941912251989" />
+      <entry key="D1" value="100.49425878095408" />
+      <entry key="W1" value="105.18578777361662" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.0794963785924436E-251" />
-      <entry key="MS500" value="9.052603957274157E-51" />
-      <entry key="S2" value="3.0845611205397043E-13" />
-      <entry key="S5" value="9.900961051476922E-6" />
-      <entry key="S10" value="0.003146579261909181" />
-      <entry key="S30" value="0.14653667787389715" />
-      <entry key="S60" value="0.38299896483084866" />
-      <entry key="M2" value="0.6327776360773931" />
-      <entry key="M5" value="1.0069453633397247" />
-      <entry key="M10" value="1.3364009121532134" />
-      <entry key="M15" value="1.5301098329784866" />
-      <entry key="M30" value="2.3870895136122474" />
-      <entry key="H1" value="6.2968589238833905" />
-      <entry key="H2" value="14.172500821589898" />
-      <entry key="H4" value="22.580734772720014" />
-      <entry key="D1" value="34.02174283296157" />
-      <entry key="W1" value="36.55777517491059" />
+      <entry key="MS100" value="3.540496810479983E-251" />
+      <entry key="MS500" value="8.124803036363779E-51" />
+      <entry key="S2" value="3.0022939450077443E-13" />
+      <entry key="S5" value="9.794477753558899E-6" />
+      <entry key="S10" value="0.003129613035753606" />
+      <entry key="S30" value="0.14627282983518639" />
+      <entry key="S60" value="0.3826540032267274" />
+      <entry key="M2" value="0.632492605069618" />
+      <entry key="M5" value="1.0067639097425523" />
+      <entry key="M10" value="1.336280495650442" />
+      <entry key="M15" value="1.5300179178252005" />
+      <entry key="M30" value="2.3870178151665025" />
+      <entry key="H1" value="6.296764357176631" />
+      <entry key="H2" value="14.172394399342117" />
+      <entry key="H4" value="22.58064999244402" />
+      <entry key="D1" value="34.02172154359486" />
+      <entry key="W1" value="36.55777190686565" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.8448498603913422E-7" />
-      <entry key="MS500" value="0.051006187018712755" />
-      <entry key="S2" value="1.1884419097631838" />
-      <entry key="S5" value="2.7436383912330884" />
-      <entry key="S10" value="3.6978915075687127" />
-      <entry key="S30" value="4.936791626572995" />
-      <entry key="S60" value="5.873753323122321" />
-      <entry key="M2" value="6.7331158136307865" />
-      <entry key="M5" value="8.435925612559464" />
-      <entry key="M10" value="12.622013919514005" />
-      <entry key="M15" value="16.996754128165758" />
-      <entry key="M30" value="28.290510686525614" />
-      <entry key="H1" value="47.57584257951284" />
-      <entry key="H2" value="74.56500450985547" />
-      <entry key="H4" value="100.25701043476548" />
-      <entry key="D1" value="133.51524834845142" />
-      <entry key="W1" value="140.74344811914364" />
+      <entry key="MS100" value="0.5823669006721576" />
+      <entry key="MS500" value="0.9432886161627702" />
+      <entry key="S2" value="2.1300747944114593" />
+      <entry key="S5" value="3.7033761419384548" />
+      <entry key="S10" value="4.672560669494287" />
+      <entry key="S30" value="5.926102078743517" />
+      <entry key="S60" value="6.867562233353382" />
+      <entry key="M2" value="7.729632476565866" />
+      <entry key="M5" value="9.434225239622275" />
+      <entry key="M10" value="13.620786506944937" />
+      <entry key="M15" value="17.995673046024667" />
+      <entry key="M30" value="29.289630918892552" />
+      <entry key="H1" value="48.57511306381043" />
+      <entry key="H2" value="75.56443708722945" />
+      <entry key="H4" value="101.25663026125132" />
+      <entry key="D1" value="134.51516417450227" />
+      <entry key="W1" value="141.743435448133" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3J6yLVGRlEBtGB3SaZwLExR6OKR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\facultad\Segundo cuatrimestre\Programación II\Java Clase 8\tp  grupal Club Deportivo" />
@@ -178,7 +177,8 @@
     <MESSAGE value="actualizar deportes" />
     <MESSAGE value="atualizar codigo" />
     <MESSAGE value="clase jugador" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase jugador" />
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
