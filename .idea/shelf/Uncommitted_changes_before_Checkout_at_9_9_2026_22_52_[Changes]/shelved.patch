@@ -1,0 +1,17 @@
+Index: src/Deporte.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Objects;\r\n\r\npublic class Deporte {\r\n    private String nombre;\r\n    private String descripcion;\r\n    private Boolean seJuegaConPelota;\r\n    private double largoCancha;\r\n    private double anchoCancha;\r\n\r\n    public  Deporte(String nombre, String descripcion, Boolean seJuegaConPelota, double largoCancha, double anchoCancha) {\r\n        this.nombre = nombre;\r\n        this.descripcion = descripcion;\r\n        this.seJuegaConPelota = seJuegaConPelota;\r\n        this.largoCancha = largoCancha;\r\n        this.anchoCancha = anchoCancha;\r\n    }\r\n\r\n    public String getNombre() {\r\n        return nombre;\r\n    }\r\n\r\n    public void setNombre(String nombre) {\r\n        this.nombre = nombre;\r\n    }\r\n\r\n    public String getDescripcion() {\r\n        return descripcion;\r\n    }\r\n\r\n    public void setDescripcion(String descripcion) {\r\n        this.descripcion = descripcion;\r\n    }\r\n\r\n    public Boolean getSeJuegaConPelota() {\r\n        return seJuegaConPelota;\r\n    }\r\n\r\n    public void setSeJuegaConPelota(Boolean seJuegaConPelota) {\r\n        this.seJuegaConPelota = seJuegaConPelota;\r\n    }\r\n\r\n    public double getAnchoCancha() {\r\n        return anchoCancha;\r\n    }\r\n\r\n    public void setAnchoCancha(double anchoCancha) {\r\n        this.anchoCancha = anchoCancha;\r\n    }\r\n\r\n    public double getLargoCancha() {\r\n        return largoCancha;\r\n    }\r\n\r\n    public void setLargoCancha(double largoCancha) {\r\n        this.largoCancha = largoCancha;\r\n    }\r\n\r\n    public double calcularAreaCancha() {\r\n        return largoCancha * anchoCancha;\r\n\r\n\r\n    @Override\r\n    public boolean equals(Object obj) {\r\n        if (this == obj) {\r\n            return true;\r\n        }\r\n        if (!(obj instanceof Deporte)) {\r\n            return false;\r\n        }\r\n        Deporte otro = (Deporte) obj;\r\n        return this.nombre.equalsIgnoreCase(otro.nombre);\r\n    }\r\n\r\n    @Override\r\n    public int hashCode() {\r\n        return Objects.hash(this.nombre);\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Deporte: [Nombre: \" + this.nombre + \", Descripcion: \" + this.descripcion + \" Se juega con pelota: \" + this.seJuegaConPelota + \", Largo de la cancha: \" this.largoCancha+ \", Ancho de la cancha: \" +this.anchoCancha+ \" ]\";\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Deporte.java b/src/Deporte.java
+--- a/src/Deporte.java	(revision 3d9e6acbdefa941ceaca739ecf22db5e1c821908)
++++ b/src/Deporte.java	(date 1789003102679)
+@@ -57,7 +57,7 @@
+ 
+     public double calcularAreaCancha() {
+         return largoCancha * anchoCancha;
+-
++    }
+ 
+     @Override
+     public boolean equals(Object obj) {
