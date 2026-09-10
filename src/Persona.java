@@ -21,10 +21,8 @@ public abstract class Persona {
     public void setNombre(String nombre) { this.nombre = nombre; }
 
     public String getFechaNacimiento() { return fechaNacimiento; }
-    public void setFechaNacimiento(String fechaNacimiento) { this.fechaNacimiento = fechaNacimiento; }
 
     public String getDni() { return dni; }
-    public void setDni(String dni) { this.dni = dni; }
 
     @Override
     public String toString() {

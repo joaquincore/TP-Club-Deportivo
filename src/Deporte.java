@@ -57,7 +57,7 @@ public class Deporte {
 
     public double calcularAreaCancha() {
         return largoCancha * anchoCancha;
-
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -73,11 +73,11 @@ public class Deporte {
 
     @Override
     public int hashCode() {
-        return Objects.hash(this.nombre);
+        return Objects.hash(this.nombre.toLowerCase());
     }
 
     @Override
     public String toString() {
-        return "Deporte: [Nombre: " + this.nombre + ", Descripcion: " + this.descripcion + " Se juega con pelota: " + this.seJuegaConPelota + ", Largo de la cancha: " this.largoCancha+ ", Ancho de la cancha: " +this.anchoCancha+ " ]";
+        return "Deporte: [Nombre: " +this.nombre+ ", Descripcion: " +this.descripcion+ ", Se juega con pelota: " +this.seJuegaConPelota+ ", Largo de la cancha: " +this.largoCancha+ "m, Ancho de la cancha: " +this.anchoCancha+ "m ]";
     }
 }

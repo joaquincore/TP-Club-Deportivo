@@ -21,6 +21,7 @@ public class Entrenador extends Persona {
         System.out.println("El entrenador " + getNombre() + " está planificando con estrategia: " + estrategiaFavorita);
     }
 
+    // Getters y Setters
     public String getEstrategiaFavorita() { return estrategiaFavorita; }
     public void setEstrategiaFavorita(String estrategia) { this.estrategiaFavorita = estrategia; }
 
@@ -32,7 +33,7 @@ public class Entrenador extends Persona {
 
     @Override
     public String toString() {
-        return super.toString() + " Entrenador{exp=" + añosExperiencia + ", estrategia='" + estrategiaFavorita + "'}";
+        return super.toString() + " Entrenador{exp=" + añosExperiencia + ", estrategia=" + estrategiaFavorita + ", Categoria: " + categoriaAsignada + "}";
     }
 
     @Override
@@ -46,6 +47,6 @@ public class Entrenador extends Persona {
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), añosExperiencia);
+        return Objects.hash(super.hashCode(), añosExperiencia, estrategiaFavorita);
     }
 }
