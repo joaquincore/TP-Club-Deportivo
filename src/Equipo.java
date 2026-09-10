@@ -14,7 +14,7 @@ public class Equipo {
         this.deporte = deporte;
         this.entrenador = entrenador;
         this.capacidadMaxima=capacidadMaxima;
-        this.jugadores = new Jugador[maxJugadores];
+        this.jugadores = new Jugador[capacidadMaxima];
         this.cantidadActual = 0;
     }
 
