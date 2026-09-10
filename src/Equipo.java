@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Objects;
 
 public class Equipo {
@@ -13,24 +12,46 @@ public class Equipo {
         this.nombre = nombre;
         this.deporte = deporte;
         this.entrenador = entrenador;
-        this.capacidadMaxima=maxJugadores;
+        this.capacidadMaxima = maxJugadores;
         this.jugadores = new Jugador[maxJugadores];
         this.cantidadActual = 0;
     }
 
     public boolean agregarJugador(Jugador jugador) {
+        if (jugador != null && deporte != null && jugador.getDeporte() != null) {
+            if (!this.deporte.equals(jugador.getDeporte())) {
+                System.out.println("Error: El deporte del jugador no coincide con el del equipo.");
+                return false;
+            }
+        }
+
         if (cantidadActual < capacidadMaxima) {
             jugadores[cantidadActual] = jugador;
             cantidadActual++;
             return true;
+        } else {
+            System.out.println("Error: El equipo esta lleno.");
+            return false;
         }
-        System.out.println("Error: El equipo está lleno.");
-        return false;
     }
 
     public void mostrarPlantilla() {
-        System.out.println("--- Equipo: " + nombre + " (" + deporte + ") ---");
-        System.out.println("Entrenador: " + (entrenador != null ? entrenador.getNombre() : "Sin asignar"));
+        String nombreDeporte;
+        if (deporte != null) {
+            nombreDeporte = deporte.getNombre();
+        } else {
+            nombreDeporte = "Sin deporte";
+        }
+
+        String nombreEntrenador;
+        if (entrenador != null) {
+            nombreEntrenador = entrenador.getNombre();
+        } else {
+            nombreEntrenador = "Sin asignar";
+        }
+
+        System.out.println("--- Equipo: " + nombre + " (" + nombreDeporte + ") ---");
+        System.out.println("Entrenador: " + nombreEntrenador);
         System.out.println("Jugadores inscriptos (" + cantidadActual + "/" + capacidadMaxima + "):");
         for (int i = 0; i < cantidadActual; i++) {
             System.out.println("- " + jugadores[i].toString());
@@ -39,7 +60,11 @@ public class Equipo {
 
     public void cambiarEntrenador(Entrenador nuevoEntrenador) {
         this.entrenador = nuevoEntrenador;
-        System.out.println("Nuevo entrenador asignado a " + nombre + ": " + nuevoEntrenador.getNombre());
+        if (nuevoEntrenador != null) {
+            System.out.println("Nuevo entrenador asignado a " + nombre + ": " + nuevoEntrenador.getNombre());
+        } else {
+            System.out.println("Entrenador desasignado de " + nombre);
+        }
     }
 
     public String getNombre() { return nombre; }
@@ -52,10 +77,18 @@ public class Equipo {
     public void setEntrenador(Entrenador entrenador) { this.entrenador = entrenador; }
 
     public Jugador[] getJugadores() { return jugadores; }
+    public int getCantidadActual() { return cantidadActual; }
+    public int getCapacidadMaxima() { return capacidadMaxima; }
 
     @Override
     public String toString() {
-        return "Equipo{nombre='" + nombre + "', deporte='" + deporte + "', entrenador=" + entrenador.getNombre() + "}";
+        String nombreEntrenador;
+        if (entrenador != null) {
+            nombreEntrenador = entrenador.getNombre();
+        } else {
+            nombreEntrenador = "Sin asignar";
+        }
+        return "Equipo{nombre='" + nombre + "', deporte='" + deporte + "', entrenador=" + nombreEntrenador + "}";
     }
 
     @Override

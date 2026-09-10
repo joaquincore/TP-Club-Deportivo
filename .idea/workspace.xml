@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf62c47-c479-4f28-8238-e95ae0bb1f63" name="Changes" comment="actualizar deportes">
-      <change beforePath="$PROJECT_DIR$/src/Deporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deporte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entrenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entrenador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
+    <list default="true" id="ecf62c47-c479-4f28-8238-e95ae0bb1f63" name="Changes" comment="clase jugador">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000037525387706" />
-      <entry key="MS500" value="1.1667077793145824" />
-      <entry key="S2" value="2.703001452976056" />
-      <entry key="S5" value="3.990897007218899" />
-      <entry key="S10" value="4.7712731631874" />
-      <entry key="S30" value="5.518779832024336" />
-      <entry key="S60" value="5.766685311405376" />
-      <entry key="M2" value="6.318769718901554" />
-      <entry key="M5" value="9.296073077645449" />
-      <entry key="M10" value="13.632472894509872" />
-      <entry key="M15" value="16.981657220159736" />
-      <entry key="M30" value="24.731958997563986" />
-      <entry key="H1" value="37.299905644503916" />
-      <entry key="H2" value="53.47014645859417" />
-      <entry key="H4" value="67.86452321230423" />
-      <entry key="D1" value="85.59703508162976" />
-      <entry key="W1" value="89.35059985985458" />
+      <entry key="MS100" value="1.0000000000008809" />
+      <entry key="MS500" value="1.0060329422268548" />
+      <entry key="S2" value="1.7285806186183432" />
+      <entry key="S5" value="3.011045483335153" />
+      <entry key="S10" value="3.8396394153703812" />
+      <entry key="S30" value="4.850430081613718" />
+      <entry key="S60" value="5.528478982536154" />
+      <entry key="M2" value="6.122913213596382" />
+      <entry key="M5" value="7.439702614871857" />
+      <entry key="M10" value="11.292390603258893" />
+      <entry key="M15" value="15.472412683561673" />
+      <entry key="M30" value="25.9084351970533" />
+      <entry key="H1" value="41.28405783422349" />
+      <entry key="H2" value="60.397189225614575" />
+      <entry key="H4" value="77.67971077411514" />
+      <entry key="D1" value="99.49432104028915" />
+      <entry key="W1" value="104.18579708719945" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.532110536026937E-257" />
-      <entry key="S10" value="3.9142183587875287E-129" />
-      <entry key="S30" value="1.575971465346579E-43" />
-      <entry key="S60" value="3.9698507092165935E-22" />
-      <entry key="M2" value="1.9924497904833174E-11" />
-      <entry key="M5" value="5.312071871012922E-5" />
-      <entry key="M10" value="0.0098081582779255" />
-      <entry key="M15" value="0.08208113345739948" />
-      <entry key="M30" value="1.1890805323152882" />
-      <entry key="H1" value="5.93959897984414" />
-      <entry key="H2" value="14.159070898900513" />
-      <entry key="H4" value="22.169037580920214" />
-      <entry key="D1" value="32.4174153015516" />
-      <entry key="W1" value="34.61838360803287" />
+      <entry key="MS100" value="6.0794963785924436E-251" />
+      <entry key="MS500" value="9.052603957274157E-51" />
+      <entry key="S2" value="3.0845611205397043E-13" />
+      <entry key="S5" value="9.900961051476922E-6" />
+      <entry key="S10" value="0.003146579261909181" />
+      <entry key="S30" value="0.14653667787389715" />
+      <entry key="S60" value="0.38299896483084866" />
+      <entry key="M2" value="0.6327776360773931" />
+      <entry key="M5" value="1.0069453633397247" />
+      <entry key="M10" value="1.3364009121532134" />
+      <entry key="M15" value="1.5301098329784866" />
+      <entry key="M30" value="2.3870895136122474" />
+      <entry key="H1" value="6.2968589238833905" />
+      <entry key="H2" value="14.172500821589898" />
+      <entry key="H4" value="22.580734772720014" />
+      <entry key="D1" value="34.02174283296157" />
+      <entry key="W1" value="36.55777517491059" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726585973376094" />
-      <entry key="MS500" value="1.1602471560612109" />
-      <entry key="S2" value="2.699158719514145" />
-      <entry key="S5" value="3.9886008955006504" />
-      <entry key="S10" value="4.769896608837577" />
-      <entry key="S30" value="5.518248024934657" />
-      <entry key="S60" value="5.766280554679717" />
-      <entry key="M2" value="6.3171954790311045" />
-      <entry key="M5" value="9.291510063377483" />
-      <entry key="M10" value="13.636483509142415" />
-      <entry key="M15" value="17.058046452993104" />
-      <entry key="M30" value="25.91579815330844" />
-      <entry key="H1" value="43.2341469378635" />
-      <entry key="H2" value="67.62442435124458" />
-      <entry key="H4" value="90.03015927888535" />
-      <entry key="D1" value="118.01367097960294" />
-      <entry key="W1" value="123.9688656247389" />
+      <entry key="MS100" value="1.8448498603913422E-7" />
+      <entry key="MS500" value="0.051006187018712755" />
+      <entry key="S2" value="1.1884419097631838" />
+      <entry key="S5" value="2.7436383912330884" />
+      <entry key="S10" value="3.6978915075687127" />
+      <entry key="S30" value="4.936791626572995" />
+      <entry key="S60" value="5.873753323122321" />
+      <entry key="M2" value="6.7331158136307865" />
+      <entry key="M5" value="8.435925612559464" />
+      <entry key="M10" value="12.622013919514005" />
+      <entry key="M15" value="16.996754128165758" />
+      <entry key="M30" value="28.290510686525614" />
+      <entry key="H1" value="47.57584257951284" />
+      <entry key="H2" value="74.56500450985547" />
+      <entry key="H4" value="100.25701043476548" />
+      <entry key="D1" value="133.51524834845142" />
+      <entry key="W1" value="140.74344811914364" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -119,6 +119,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -136,9 +137,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/User/Desktop/facultad/Segundo cuatrimestre/Programación II/Java Clase 8/tp  grupal Club Deportivo/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\facultad\Segundo cuatrimestre\Programación II\Java Clase 8\tp  grupal Club Deportivo" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -167,7 +176,9 @@
     <MESSAGE value="clase deporte agregue ancho y largo y cree la categoria" />
     <MESSAGE value="fusion?" />
     <MESSAGE value="actualizar deportes" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizar deportes" />
+    <MESSAGE value="atualizar codigo" />
+    <MESSAGE value="clase jugador" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase jugador" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
